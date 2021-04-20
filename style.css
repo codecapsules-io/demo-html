@@ -1,0 +1,9 @@
+.bodyContainer{
+    padding: 20px;
+    background-color: lightgrey;
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+}
