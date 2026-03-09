@@ -1,17 +1,72 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Personal Site</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" type="text/css" href="style.css">
-    </head>
-    <body>
-        <div id="body" class="bodyContainer">
-            <h1>Personal Site</h1>
-            <p id="text">The background color is light grey</p>
-            <button onClick="welcome()">Click To View Message</button>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeCapsules — Deploy in Minutes</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <span class="logo">⬡ CodeCapsules</span>
+      <a href="https://codecapsules.io" class="btn-nav">Get Started</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <div class="hero-content">
+      <span class="badge">Deployed on CodeCapsules</span>
+      <h1>Ship your ideas<br><span class="accent">without the ops</span></h1>
+      <p>CodeCapsules is a cloud hosting platform that lets you deploy frontend, backend, and database capsules directly from your GitHub repository — no DevOps required.</p>
+      <div class="hero-actions">
+        <a href="https://codecapsules.io" class="btn-primary">Start for free</a>
+        <a href="https://docs.codecapsules.io" class="btn-secondary">Read the docs →</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="terminal">
+        <div class="terminal-bar">
+          <span></span><span></span><span></span>
         </div>
-        <script src="script.js"></script>
-    </body>
+        <pre class="terminal-body"><span class="dim">$</span> git push origin main
+<span class="dim">...</span>
+<span class="green">✓</span> Build succeeded
+<span class="green">✓</span> Capsule deployed
+<span class="green">✓</span> Live at your-app.codecapsules.co.za</pre>
+      </div>
+    </div>
+  </header>
+
+  <section class="features">
+    <h2>Everything you need to deploy</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="card-icon">⚡</div>
+        <h3>Frontend Capsules</h3>
+        <p>Deploy React, Vue, Angular, Svelte, or plain HTML. Connect your repo and go live in minutes.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">⚙️</div>
+        <h3>Backend Capsules</h3>
+        <p>Run Node.js, Python, Go, Java, or Docker containers. Auto-deploy on every git push.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon">🗄️</div>
+        <h3>Data Capsules</h3>
+        <p>Managed PostgreSQL, MongoDB, MySQL, and Redis — connected to your capsules in one click.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta">
+    <h2>Ready to deploy?</h2>
+    <p>This page is a static HTML site deployed on a CodeCapsules Frontend Capsule. Fork the repo and deploy your own in minutes.</p>
+    <a href="https://codecapsules.io" class="btn-primary">Create your free account</a>
+  </section>
+
+  <footer>
+    <p>Built with plain HTML &amp; CSS · Hosted on <a href="https://codecapsules.io">CodeCapsules</a></p>
+  </footer>
+</body>
 </html>
